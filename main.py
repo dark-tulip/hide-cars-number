@@ -9,7 +9,7 @@ from shutil import copyfile
 import hide_car_number
 import logging
 
-TOKEN = "1996308736:AAFA0k4YBs0XydvD25T2vd6WNkTtG9bX1Qk"
+TOKEN = "HERE IS A TOKEN"
 
 # Объект бота
 bot = Bot(token=TOKEN)
