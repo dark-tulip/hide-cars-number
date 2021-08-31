@@ -42,7 +42,7 @@ async def get_photo_messages(msg: types.Message):
         Если на картинке не найден номер автомобиля - возвращает что не найден номер
     """
     await msg.reply('YES, ITS A PHOTO')
-    current_path = path.dirname(path.abspath(__file__))   # C:\Users\tansh\selenium_course\car_hide
+    current_path = path.dirname(path.abspath(__file__))   # C:\Users\tansh\hide_cars_number
 
     # Если нет относительной директории, создаем новую
     directory = current_path + "\\original_photos\\"
