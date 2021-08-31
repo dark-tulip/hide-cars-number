@@ -44,7 +44,7 @@ def edit_photo(img_source):
 
         kick = (left_top_y_coord - right_bottom_y_coord) / 3 + right_bottom_y_coord
         now = right_bottom_y_coord * 0.98
-        cv2.putText(img, text="CARFAST.KZ", org=(int(left_top_x_coord * 1.045), int(kick)),
+        cv2.putText(img, text="COMPANY.KZ", org=(int(left_top_x_coord * 1.045), int(kick)),
                     fontFace=font, fontScale=x_coord_module / 225, color=black, thickness=2,
                     lineType=cv2.LINE_AA)  # Текст внутри
 
@@ -52,7 +52,7 @@ def edit_photo(img_source):
         """
             Функция наносит водяной знак компании на правый нижний угол
         """
-        cv2.putText(img, text="CARFAST.KZ", org=(int(width * 0.6), int(height * 0.96)), fontFace=font,
+        cv2.putText(img, text="COMPANY.KZ", org=(int(width * 0.6), int(height * 0.96)), fontFace=font,
                     fontScale=width / 500, color=black, thickness=3, lineType=cv2.LINE_AA)  # Текст
 
     def save_image():
